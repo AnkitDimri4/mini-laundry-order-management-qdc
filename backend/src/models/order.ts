@@ -1,7 +1,7 @@
 export type OrderStatus = 'RECEIVED' | 'PROCESSING' | 'READY' | 'DELIVERED';
 
 export interface OrderItem {
-  garmentType: string;   // e.g. 'SHIRT', 'PANTS', 'SAREE'
+  garmentType: string;
   quantity: number;
   pricePerItem: number;
   lineTotal: number;
